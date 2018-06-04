@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'consulo'
+    id 'idea'
+    id 'eclipse'
+}
+
+group 'consulo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
